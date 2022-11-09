@@ -1,0 +1,69 @@
+body{
+   	/* background-color: #17F23B;*/
+     background-color:#000000;
+
+     }
+     main{
+        margin: auto;
+        width: 85%;
+     }
+     #sobre_mim, #coisas_gosto, #meus_estudos, #final{ 
+        color: #018AFF;
+        display: block;
+        text-align: center;
+         }
+
+  /*#coisas_gosto{
+        color: #01FFD5;
+        display: block;
+        text-align: center
+        margin-top: 15px;
+        font-size: 16px;
+    }
+    
+    #content2 h2{
+     font-size: 2em;
+    }
+    #content2 h3{
+      font-size: 1.5em;
+       }  
+     */
+     div{
+        background color: : #018AFF;
+        padding: 18px;
+     }
+ 	h1,h2,h3,h4{
+ 		color:#018AFF;
+ 		text-align: center;
+ 		font-size: 50px;/*font-size: propriedade pra trocar tamanho de font*/
+        /*background-color: #3F5EE5;
+        padding:15px 0;*/
+ 	}
+ 	p{
+ 		font-family: 'Open Sans', sans-serif;
+ 		font-size: 22px;
+ 		text-align: justify;
+ 	}
+ 	img{
+ 		max-width: 700px;
+ 		width: 100%;
+        border-style: solid;
+ 	}
+    /*#foto1{
+        max-width: 600px;
+        display:block;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+    #foto2{
+        max-width: 300px;
+    }
+    */
+    @media only screen and (max-width: 600px){
+        #content2{
+            font-size: 30px;
+        }
+        main{
+            width: 100%;
+        }
+    }
